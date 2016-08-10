@@ -1,0 +1,63 @@
+.clearfix:after { /* 清除浮动  */
+    content: '';
+    display: block;
+    clear: both;
+}
+#canvas {
+	margin: 20px auto;
+	/*border: 1px solid #000;*/
+	display: block;
+	/*width: 50%;
+	height: 50%;*/
+}
+#controller {
+	margin: 10px auto;
+}
+#controller .ctlBtn {
+	height: 34px;
+	line-height: 34px;
+	border-radius: 10px;
+	float:left;
+	padding: 0px 20px;
+	/*margin-right: 5px;*/
+	margin: 10px 5px 0;
+	background-color: #888;
+}
+#controller .ctlBtn:active{
+	opacity: .6;
+}
+.control.colorSelector{
+	width: 120px;
+}
+.control .sizeValue {
+	width: 50px;
+}
+.control .ctlIpt {
+	margin: 10px 5px 0;
+	float: left;
+}
+.colorArea {
+	
+}
+.colorValue {
+	
+}
+.pushCanvas {
+
+}
+.clearCanvas {
+
+}
+.webinfo {
+	position: relative;
+    top: 40px;
+    margin: 20px 10px;
+    float: right;
+}
+.webinfo a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
